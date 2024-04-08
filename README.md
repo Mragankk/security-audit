@@ -38,9 +38,10 @@ curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o 
 ```
 
 ## Security Audits for Solidity
-- Solgraph : `docker pull devopstestlab/solgraph`
+- ## Solgraph :
+  `docker pull devopstestlab/solgraph`
   
-### Solgraph Steps
+#### Solgraph Steps
 - Create a directory `mkdir data`
 - Create a sol file `MyContract.sol`
 - Run solgraph :
@@ -55,9 +56,10 @@ xdg-open MyContract.sol.png
 ```
 ![image](https://github.com/Mragankk/solidity-audit/assets/145200189/6a813bd6-f2c2-4b95-8642-b848f5a5b1f1)
 
-- Slither: `docker pull trailofbits/eth-security-toolbox`
+- ## Slither:
+  `docker pull trailofbits/eth-security-toolbox`
 
-### Slihter steps
+#### Slihter steps
 -  Create a directory ```mkdir Audit```
 - Create a sol file ```vi SimpleStorage1.sol```
 - Pull Docker Image for slither : `docker pull trailofbits/eth-security-toolbox`
@@ -78,4 +80,5 @@ slither-check-erc MyContract.sol Persssist
 
 ![image](https://github.com/Mragankk/solidity-audit/assets/145200189/bd04f0fe-43d6-4033-86b2-95bf8f30255f)
 
-- Mythril : `docker pull mythril/myth`
+- ## Mythril  :
+  `docker pull mythril/myth`
