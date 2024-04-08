@@ -3,7 +3,6 @@
 ### docker-install
 
 https://hub.docker.com
-### OR
 
 #### Quick Install
 ```bash
