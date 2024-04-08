@@ -55,7 +55,7 @@ xdg-open MyContract.sol.png
 ```
 ![image](https://github.com/Mragankk/solidity-audit/assets/145200189/6a813bd6-f2c2-4b95-8642-b848f5a5b1f1)
 
--Slither: `docker pull trailofbits/eth-security-toolbox`
+- Slither: `docker pull trailofbits/eth-security-toolbox`
 
 ### Slihter steps
 -  Create a directory ```mkdir Audit```
