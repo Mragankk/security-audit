@@ -26,7 +26,7 @@ Add Docker’s official GPG key:
 ```bash
 curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo gpg --dearmor -o /usr/share/keyrings/docker-archive-keyring.gpg
 ```
-#### SEE IMGAGES/INSPECT
+#### SEE IMAGES/INSPECT
 ```bash
  docker images
 ```
