@@ -80,5 +80,9 @@ slither-check-erc MyContract.sol Persssist
 
 ![image](https://github.com/Mragankk/solidity-audit/assets/145200189/bd04f0fe-43d6-4033-86b2-95bf8f30255f)
 
-- ## Mythril  :
-  `docker pull mythril/myth`
+- ## Surya:
+  Pre-requisites- `NODE` `NPM`
+  
+  install-`npm install -g surya`
+
+  
