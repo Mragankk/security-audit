@@ -87,10 +87,29 @@ slither-check-erc MyContract.sol Persssist
   
   install graphviz (dot function)-`npm install graphviz`
   
-  `graph` command: The graph command outputs a DOT-formatted graph of the control flow.
-  
+  - `graph` command: The graph command outputs a DOT-formatted graph of the control flow.
+
   ```
   surya graph contracts/**/*.sol | dot -Tpng > mycontract.png
   ```
   
-  
+  ![image](https://github.com/Mragankk/solidity-audit/assets/145200189/c74c8b15-8620-4fbb-abd1-56a82ebf6902)
+
+
+- `Flatten` command:  The flatten command outputs a flattened version of the source code, with all import statements replaced by the corresponding source code. Import statements that reference a file that has already been imported, will simply be commented out.
+  ```
+  surya flatten mycontract.sol
+  ```
+
+- `ftrace` command: outputs a treefied function call trace stemming from the defined "CONTRACT::FUNCTION" and traversing "all|internal|external" types of calls. External calls are marked in orange and internal calls are uncolored.
+    ```
+    surya ftrace APMRegistry::_newRepo all mycontract.sol
+    ```
+- `describe` :The describe command shows a summary of the contracts and methods in the files provided.
+  ```
+  surya describe *.sol
+  ```
+- `parse`: The parse command outputs a treefied AST object coming from the parser.
+  ```
+  surya parse mycontract.sol
+  ```
