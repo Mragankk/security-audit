@@ -84,5 +84,13 @@ slither-check-erc MyContract.sol Persssist
   Pre-requisites- `NODE` `NPM`
   
   install-`npm install -g surya`
-
+  
+  install graphviz (dot function)-`npm install graphviz`
+  
+  `graph` command: The graph command outputs a DOT-formatted graph of the control flow.
+  
+  ```
+  surya graph contracts/**/*.sol | dot -Tpng > mycontract.png
+  ```
+  
   
